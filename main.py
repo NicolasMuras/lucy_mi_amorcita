@@ -31,7 +31,7 @@ carrito = Carrito() # Se inicializa el carrito.
 
 
 def modulo_productos_y_promociones():
-    os.system('clear') # De nuevo, se limpia la consola cada vez que se ingresa a un nuevo modulo.
+    os.system('cls') # De nuevo, se limpia la consola cada vez que se ingresa a un nuevo modulo.
 
     def print_menu():
         print("------------------------------ PRODUCTOS Y PROMOCIONES -----------------------------\n")
@@ -73,10 +73,10 @@ def modulo_productos_y_promociones():
         print_menu() 
         opcion = input("Elige una opcion: ")
 
-    os.system('clear')
+    os.system('cls')
 
 def modulo_compra():
-    os.system('clear')
+    os.system('cls')
 
     def print_menu():
         print("-------------------------------------- COMPRA --------------------------------------\n")
@@ -130,10 +130,10 @@ def modulo_compra():
         print_menu()
         opcion = input("Elige una opcion: ")
 
-    os.system('clear')
+    os.system('cls')
 
 def modulo_manejo_de_tarjetas_de_credito():
-    os.system('clear')
+    os.system('cls')
 
     def print_menu():
         print("-------------------------- MANEJO DE TARJETAS DE CREDITO ---------------------------\n")
@@ -176,10 +176,10 @@ def modulo_manejo_de_tarjetas_de_credito():
         print_menu()
         opcion = input("Elige una opcion: ")
 
-    os.system('clear')
+    os.system('cls')
 
 def modulo_administrativo():
-    os.system('clear')
+    os.system('cls')
 
     def print_menu():
         print("---------------------------------- ADMINISTRACION ----------------------------------\n")
@@ -208,7 +208,7 @@ def modulo_administrativo():
         print_menu()
         opcion = input("Elige una opcion: ")
 
-    os.system('clear')
+    os.system('cls')
 
 def modulo_salir():
     print("\n[*] Saliste del sistema.")
@@ -218,7 +218,7 @@ def main():
     """
         Funcion principal del programa, que gestiona el menu principal.
     """
-    os.system('clear') # Esto es utilizado para limpiar la consola. (Es lo que hace que cuando entremos a un menu, se borre lo que habia antes)
+    os.system('cls') # Esto es utilizado para limpiar la consola. (Es lo que hace que cuando entremos a un menu, se borre lo que habia antes)
 
     def print_menu(): # Es una funcion sencilla, la llamaremos para imprimir el menu principal.
         print("---------------------------------- MENU PRINCIPAL ----------------------------------\n")
